@@ -7,7 +7,7 @@ Built with **Python**, **Streamlit**, **SQLite**, and **Groq LLMs**, the system 
 
 ## Overview
 
-Working with databases typically requires SQL knowledge and an understanding of database schemas. This project removes that barrier by allowing users to query databases conversationally.
+Working with databases typically requires an understanding of database schemas. This project removes that barrier by allowing users to query databases conversationally.
 
 The application automatically extracts the schema of an uploaded SQLite database, generates schema-aware SQL queries from natural-language questions, executes those queries, and presents the results in an intuitive interface.
 
@@ -15,13 +15,11 @@ The application automatically extracts the schema of an uploaded SQLite database
 
 * Upload SQLite databases (`.db`, `.sqlite`, `.sqlite3`)
 * Automatic database schema extraction
-* AI-powered SQL generation using Groq LLMs
+* AI-powered SQL generation using Groq API
 * Natural language querying
 * Automatic SQL execution
-* Interactive result visualization
 * CSV export functionality
 * Streamlit-based user interface
-* Schema-aware query generation for improved accuracy
 
 ---
 
@@ -54,8 +52,6 @@ Examples:
 * Which product has the highest sales?
 * Show the top 5 sellers by revenue.
 * What is the average review score?
-
-No SQL knowledge is required.
 
 ### 5. Generate SQL Automatically
 
@@ -105,7 +101,6 @@ The results can then be downloaded as a CSV file.
 * Streamlit
 * SQLite
 * Groq API
-* Large Language Models (LLMs)
 * Pandas
 
 ---
@@ -154,13 +149,10 @@ streamlit run app.py
 
 ## Future Improvements
 
-* PostgreSQL support
-* MySQL support
+* PostgreSQL & MySQL support
 * Data visualization and chart generation
-* Query history tracking
 * Multi-database support
 * Conversational follow-up questions
-* Advanced analytics and reporting
 
 ---
 
