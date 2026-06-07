@@ -2,7 +2,7 @@
 
 An AI-powered database assistant that enables users to interact with SQLite databases using natural language. Instead of writing SQL queries manually, users can simply ask questions in plain English, and the application automatically generates, executes, and displays the results.
 
-Built with **Python**, **Streamlit**, **SQLite**, and **Groq LLMs**, the system dynamically analyzes the uploaded database schema to generate accurate SQL queries tailored to the user's database.
+Built with **Python**, **Streamlit**, **SQLite**, and **Groq**, the system dynamically analyzes the uploaded database schema to generate accurate SQL queries tailored to the user's database.
 
 
 ## Overview
